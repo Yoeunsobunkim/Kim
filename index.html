@@ -1,96 +1,215 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<title>Cambodai Cost</title>
-  <meta charset="UFT-8">
-  <meta Name="Viewport" content="Width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-<link rel="icon" type="image/x-icon" href="images/ico1.jpg">
-<link rel="stylesheet"  href="style.css">
 <style>
-img {
-  border: 4px solid darkblue;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #211564;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #28b463;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+div.gallery {
+    border: 2px solid gold;
+}
+div.gallery:hover {
+    border: 2px solid gold;
+}
+
+div.desc {
+padding: 10px;
+text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    
+}
+@media only screen and (max-width: 500px){
+   .responsive {
+    width: 100;
+   } 
+}
+
+.clearfix::after {
+    content:"";
+    display: table;
+    clear: both;
 }
 </style>
+<title>College Science and Technology </title>
+<link rel="icon" type="image/x-icon" href="image/icon.jpg">
 </head>
-<body>  
-<img src="Images/banner.jpg" alt="Images" style="width:100%;">
-<h1 style="color:white;background-color:darkblue;"><marquee behavior="scroll" direction="right" scrollamount="8"><img src="Images/cost.jpg" alt="Images" style="width:130px;height:50px;">ស្វាគមន៏!🌺​Welcome🌸 college science and technology</marquee></h1>
-<img src="Images/1.jpg" alt="Images" style="width:450px;height:350px;" >
-<img src="Images/2.jpg" alt="Images" style="width:450px;height:350px;" >
-<img src="Images/3.jpg" alt="Images" style="width:450px;height:350px;" >
-<P>Welcome to College of Science and Technology of The University of Cambodia. For everyone who wishes to pursue for any AA and BA degrees of the study programs, please register now or visit the campus of The University of Cambodia. College of Science and Technology at The University of Cambodia. The College of Science and Technology (CoST) was established at the same time as the The University of Cambodia in 2013. The College have been developed and transforms with the rise of Science and technology in the 21st century. We drive and inspire our students to value creativity and innovation in the information technology world. The college offers undergraduate and graduate programs such as Computer Science, Information Technology and Electronics and Telecommunication. Our programs prepare students for careers in these disciplines as scientific and ICT professional. In order to meet increasing demand for graduates in computer science and information technology, we have: developed robust and modern curricula; established sophisticated facilities; and hired high qual...
-</p>
-<h2 style="color:white;background-color:darkblue;"> Majors Offering in College of Science and Technology </h2>
-<head>
-    <style>
-      table,
-      th,
-      td{
-        border: 1px solid blue;
-      }
-    
-    </style>
-  </head>  
-  <table style="Width:100%">
-    <tr>
-      <th>Majors</th>
-      <th>Associate,Bachelor</th>
-      <th>Master , PhD</th>
-    </tr>
-    <tr>
-      <td>Coputerb science (Offering)</td>
-      <td>AA and BA</td>
-      <td>MS and PhD</td>
-    </tr>
-    <tr>
-      <td>information technology (Offering)</td>
-      <td>BA</td>
-      <td>MS</td>
-    
-    </tr>
-    <tr>
-      <td>Electronics and Telecommunications</td>
-      <td>BA</td>
-      <td>MS</td>
+<div>
+
+<marquee behavior="slide" direction="left" scrollamount="8">
+
+<img src="image/banner.jpg" alt="Image" style="width:100%;">
+
+</marquee>
+<body>
+  
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="news.html">News</a></li>
+  <li><a href="faculty.html">Facuty Members</a></li>
+  <li><a href="training.docx">Professional Training</a></li>
+   <li><a href="videos.html">Vdeos Cost</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Bachelor Programs</a>
+    <div class="dropdown-content">
+      <a href="IT.html" target="_blank">Imformation technology Since 2003</a>
+      <a href="cs.html" target="_blank">Computer Science Since 2003</a>
+      <a href="etc.html" target="_blank">Electronics and Telenommunicarions Since 2003</a>
+      <a href="GDM.html" target="_blank">Graohic Design and Multimedia New 2026</a>
+      <a href="BMIT.html" target="_blank">Business Management Information technology New 2026</a>
+      <a href="NECS.html" target="_blank">Network Engineering and Cyber Security New 2026</a>
+      <a href="DSAI.html" target="_blank">Data Sience and Artificial Intelligence New 2026 </a>
+    </div>
+  </li>
+   <li class="dropdown">
+  <a href="javascript:void(0)" class="dropbtn">Computer Lab</a>
+    <div class="dropdown-content">
+      <a href="Lab1.html" target="_blank">Multimedia Lab</a>
+      <a href="Lab2.html" target="_blank">E-Learning Lab</a>
+      <a href="Lab3.html" target="_blank">Networking Lab</a>
+      <a href="Lab4.html" target="_blank">It Center lab</a>
       
-    </tr>
-  </table>
-<h2 style="color:white;background-color:darkblue;"> college of Science and technology Computer Labs</h2>
-<img src="Images/Graphic.jpg" alt="Images" style="width:490px;height:350px;" >
-<img src="Images/IT-center.jpg" alt="Images" style="width:490px;height:350px;" >
-<img src="Images/Networking.jpg" alt="Images" style="width:490px;height:350px;" >
 
-<table style="Width:100%;">
-    <caption> Computer Labs University of Cambodia</caption>
-    <tr>
-      <th>Multimedia lap</th>
-      <th>E-learning lap</th>
-	  <th>Networking lap</th>
-      <th>IT-center lap</th>
-    </tr>
-    <tr>
-      <td rowspan="1">Graphic Design</td>
-      <td>Graphic Design</td>
-      <td>Networking  Design</td>
-	  <td>Computer Applications</td>	
-	  </tr>
-	  <tr>
-	  <td rowspan="1">Computer Applications</td>
-      <td>Produce Video Contents</td>
-      <td>Web Development</td>
-	  <td>Computer Programming</td>
-	  </tr>
-      <td rowspan="1">Mobile Applications</td>
-      <td>Computer Application</td>
-      <td>Network Security</td>
-	  <td>Database Development</td>	
-	  </tr>
-</table>
+    </div>
+    
+  </li>
+</ul> 
+<div>
+    <p>ស្វាគមន៍មកកាន់មហាវិទ្យាល័យវិទ្យាសាស្រ្ត និងបច្ចេកវិទ្យានៃសាកលវិទ្យាល័យកម្ពុជា។ សម្រាប់ប្អូនៗសិស្សានុសិស្ស ដែលមានបំណងចង់បន្តការសិក្សាថ្នាក់បរិញ្ញាបត្ររង និងថ្នាក់បរិញ្ញាបត្រ។ សូមចុះឈ្មោះជាមួយយើងឥឡូវនេះ ឬអាចអញ្ជើញមកកាន់សាកលវិទ្យាល័យផ្ទាល់ក៏បាន។</p>
+<p>Welcome to College of Science and Technology of The University of Cambodia. For everyone who wishes to pursue for any AA and BA degrees of the study programs, please register now or visit the campus of The University of Cambodia.
+</p>
+</div>
+<div>
+    <h2 style="text-align: center;">Studying Activities in CoST </h2>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="image/a.jpg">
+              <img src="image/a.jpg" alt="Cinque Terre" width="500" height="450">
+              </a>
+    <div class="desc">Wep Deverlopment-HTML CSS</div>
+        </div>
+        </div>          
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="image/a.jpg">
+              <img src="image/b.jpg" alt="Cinque Terre" width="500" height="450">
+              </a>
+    <div class="desc">Studying Multimedia lap</div>
+        </div>
+        </div>        
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="image/a.jpg">
+              <img src="image/c.jpg" alt="Cinque Terre" width="500" height="450">
+              </a>
+    <div class="desc">Studying IT-Center</div>
+        </div>
+        </div>        
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="image/a.jpg">
+              <img src="image/d.jpg" alt="Cinque Terre" width="500" height="450">
+              </a>
+    <div class="desc">Grsduation 2025</div>
+        </div>
+        </div>        
 
+      </div>     
+  <div>
+<h2 style="color:white;background-color:#211564;"><marquee behavior="scroll" direction="right" scrollamount="8"><img src="image/cost.jpg" alt="images" style="width:200px;height: 60px;px;"> <em>សូមស្វាគមន៍! IT EXPERT College Science and Technology</em> </marquee></h2>
+</div>
+<div><h2 style="text-align: center;">Computer Labs College CoST </h2></div>
+<div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="image/a.jpg">
+              <img src="image/e.jpg" alt="Cinque Terre" width="500" height="450">
+              </a>
+    <div class="desc">Multimedia Lab</div>
+        </div>
+        </div>          
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="image/a.jpg">
+              <img src="image/f.jpg" alt="Cinque Terre" width="500" height="450">
+              </a>
+    <div class="desc">Networking Lab</div>
+        </div>
+        </div>        
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="image/a.jpg">
+              <img src="image/g.jpg" alt="Cinque Terre" width="500" height="450">
+              </a>
+    <div class="desc">IT-Center Lab</div>
+        </div>
+        </div>        
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="image/a.jpg">
+              <img src="image/h.jpg" alt="Cinque Terre" width="500" height="450">
+              </a>
+    <div class="desc">IT-Center Update</div>
+        </div>
+        </div>        
+</body>
 </html>
-<footer>
-<img src="images/icon.jpg" width="50" height="50">
-College Science and Technology Copyright@2025<br>
-By: YOEUN SOBUNKIM & HENG SORL
-</footer>
+<div id="footer">
+   <h4 style="color:white;background-color:#211564;text-align: center;">
+<img src="image/uc.png" width="40" height="40">
+Copyright © University of Cambodia
+</h4>
+</div>
